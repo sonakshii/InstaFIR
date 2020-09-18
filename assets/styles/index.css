@@ -1,0 +1,148 @@
+* 
+{
+  padding-top: 0px;
+  margin: 0; 
+}
+body 
+{
+  background-color: #151615;
+  color: #EAE8D4; 
+}
+body .avatar 
+{
+  border-radius: 50%;
+  width: 100%; 
+}
+
+  .container 
+  {
+    min-width: 100%; 
+  }
+  .container nav 
+  {
+    font-size: 1.2em;
+    font-weight: 650;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 15px; 
+  }
+  .container nav .nav-link 
+  {
+    color: #FFFDE7;
+    text-decoration: none; 
+  }
+  .container nav .nav-link i 
+  {
+    padding-right: 20px; 
+  }
+  .container nav a:hover 
+  {
+    color: #328ef1; 
+  } 
+  
+  .mainlogo
+  {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+  }
+  .mainlogo:hover
+  {
+    text-decoration: none;
+  }
+
+
+  .container main 
+  {
+    border: 1px solid grey; 
+  }
+  .container main .first-part 
+  {
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 7px 2px 7px; 
+  }
+  .container main .first-part .home 
+  {
+    font-weight: bold;
+    font-size: 1.3em; 
+  }
+  .container main .first-part .fa-balance-scale 
+  {
+    color: #328ef1; 
+  }
+
+
+   
+  .container .Add_new_post span
+  {
+    font-weight: bold;
+        font-size: 1.4em;
+  }
+  .container .Add_new_post .post-blocks 
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  .container  .Add_new_post .post-blocks textarea 
+  {
+    color: black;
+    border: 2px solid #328ef1; 
+  }
+  .container .Add_new_post .post-blocks .post-form 
+  {
+    height: 159px;
+    width: 390px;
+    padding-top: 10px;
+    padding-left:15px; 
+  }
+  
+
+
+  .container #posts 
+  {
+    border: 1px solid gray;
+    min-height: 290px; 
+  }
+  .container #posts .post-1 
+  {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 8px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+  }
+  .container #posts .post-1 .post-img 
+  {
+    width: 13%; 
+  }
+  .container #posts .post-1 .post-img img 
+  {
+    border-radius: 50%;
+    width: 100%; 
+  }
+  .container #posts .post-1 .post-txt {
+    width: 83%;
+    padding-left: 5px; 
+  }
+  .container #posts .post-1 .post-txt .date 
+  {
+    font-size: 0.85em; 
+  }
+  .container #posts .post-1 .post-txt .post-icons 
+  {
+    padding-top: 7px; 
+  }
+  .container #posts .post-1 .post-txt .post-icons .fa 
+  {
+    font-size: 25px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .container #posts .post-1 .post-txt .post-icons .fa:hover 
+  {
+    color: #328ef1;
+  }
