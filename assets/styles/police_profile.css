@@ -8,16 +8,12 @@ body
   background-color: #151615;
   color: #EAE8D4; 
 }
-body .avatar 
-{
-  border-radius: 50%;
-  width: 100%; 
-}
-
   .container 
   {
     min-width: 100%; 
   }
+
+  /*LEFT PANEL*/
   .container nav 
   {
     font-size: 1.2em;
@@ -40,7 +36,6 @@ body .avatar
   {
     color: #328ef1; 
   } 
-  
   .mainlogo
   {
     color: white;
@@ -52,7 +47,7 @@ body .avatar
     text-decoration: none;
   }
 
-
+/*MAIN PANEL */
   .container main 
   {
     border: 1px solid grey; 
@@ -74,44 +69,16 @@ body .avatar
   {
     color: #328ef1; 
   }
-
-
-   
-  .container .Add_new_post span
-  {
-    font-weight: bold;
-        font-size: 1.4em;
-  }
-  .container .Add_new_post .post-blocks 
-  {
-    display: flex;
-    flex-direction: row;
-  }
-  .container  .Add_new_post .post-blocks textarea 
-  {
-    color: black;
-    border: 2px solid #328ef1; 
-  }
-  .container .Add_new_post .post-blocks .post-form 
-  {
-    height: 159px;
-    width: 390px;
-    padding-top: 10px;
-    padding-left:15px; 
-  }
   
-  strong{
+  strong
+  {
     color: #328ef1;
   }
-  .sec1{
-    width: 70%;
+  /*section one complain section*/
+  .sec1
+  {
     padding: 2px;
   }
-  .sec2{
-    padding: 4px;
-
-  }
-
   .container #posts 
   {
     border: 1px solid gray;
@@ -142,21 +109,17 @@ body .avatar
   {
     font-size: 0.85em; 
   }
-  .container #posts .post-1 .post-txt .post-icons 
-  {
-    padding-top: 7px; 
-  }
-  .container #posts .post-1 .post-txt .post-icons .fa 
-  {
-    font-size: 25px;
-    cursor: pointer;
-    user-select: none;
-  }
-  .container #posts .post-1 .post-txt .post-icons .fa:hover 
-  {
-    color: #328ef1;
-  }
+/*section 2 reply sectipn*/
 
+  .sec2
+  {
+    padding: 2px;
+  }
+  .replystatus{
+    background-color:white;
+    color: black;
+    padding: 10px;
+  }
   .container #posts .post-1 .reply-img 
   {
     width: 13%; 
@@ -170,15 +133,11 @@ body .avatar
     width: 83%;
     padding-left: 5px; 
   }
-  .container #posts .post-1 .reply-txt .date 
+  .container #posts .post-1 .reply-txt .reply-date 
   {
     font-size: 0.85em; 
   }
-  .container .reply-blocks textarea 
+  .container #posts .post-1 .reply-txt .reply-account
   {
-
-    color: black;
-    width: 320px;
-    height: 120px;
-    border: 2px solid #328ef1; 
+    color:#328ef1;
   }

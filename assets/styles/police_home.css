@@ -8,16 +8,11 @@ body
   background-color: #151615;
   color: #EAE8D4; 
 }
-body .avatar 
-{
-  border-radius: 50%;
-  width: 100%; 
-}
-
   .container 
   {
     min-width: 100%; 
   }
+  /*left panel*/
   .container nav 
   {
     font-size: 1.2em;
@@ -40,7 +35,6 @@ body .avatar
   {
     color: #328ef1; 
   } 
-  
   .mainlogo
   {
     color: white;
@@ -51,8 +45,7 @@ body .avatar
   {
     text-decoration: none;
   }
-
-
+  /*main middle section*/
   .container main 
   {
     border: 1px solid grey; 
@@ -74,34 +67,16 @@ body .avatar
   {
     color: #328ef1; 
   }
-
-
-   
-  .container .Add_new_post span
+  strong
   {
-    font-weight: bold;
-        font-size: 1.4em;
+    color: #328ef1;
   }
-  .container .Add_new_post .post-blocks 
+/*section 1(complain area in post1)*/
+  .sec1
   {
-    display: flex;
-    flex-direction: row;
+    padding: 2px;
+    width: 50%;
   }
-  .container  .Add_new_post .post-blocks textarea 
-  {
-    color: black;
-    border: 2px solid #328ef1; 
-  }
-  .container .Add_new_post .post-blocks .post-form 
-  {
-    height: 159px;
-    width: 390px;
-    padding-top: 10px;
-    padding-left:15px; 
-  }
-  
-
-
   .container #posts 
   {
     border: 1px solid gray;
@@ -128,21 +103,45 @@ body .avatar
     width: 83%;
     padding-left: 5px; 
   }
+  .container #posts .post-1 .post-txt .post-account
+  {
+    color:#328ef1;
+  }
   .container #posts .post-1 .post-txt .date 
   {
     font-size: 0.85em; 
   }
-  .container #posts .post-1 .post-txt .post-icons 
+  .container #posts .post-1 .post-txt .documents
   {
-    padding-top: 7px; 
+    color:#328ef1;
   }
-  .container #posts .post-1 .post-txt .post-icons .fa 
+
+/*section 2 (reply area in post 1)*/
+  .sec2
   {
-    font-size: 25px;
-    cursor: pointer;
-    user-select: none;
+    padding: 2px;
   }
-  .container #posts .post-1 .post-txt .post-icons .fa:hover 
+  .container #posts .post-1 .reply-img 
   {
-    color: #328ef1;
+    width: 13%; 
+  }
+  .container #posts .post-1 .reply-img img 
+  {
+    border-radius: 50%;
+    width: 100%; 
+  }
+  .container #posts .post-1 .reply-txt {
+    width: 83%;
+    padding-left: 5px; 
+  }
+  .container #posts .post-1 .reply-txt .reply-date 
+  {
+    font-size: 0.85em; 
+  }
+  .container .reply-blocks textarea 
+  {
+    color: black;
+    width: 320px;
+    height: 120px;
+    border: 2px solid #328ef1; 
   }
