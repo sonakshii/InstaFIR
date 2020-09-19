@@ -1,0 +1,99 @@
+!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>InstaFIR</title>
+     <link rel="stylesheet" type="text/css" href="assets/styles/police_signup.css">    
+
+ </head>
+ <body>
+    <form class="signup-form" action="/register" method="post">
+        <div class="form-header">
+            <h1>Create Police Account</h1>
+        </div>
+    
+        <!-- form body -->
+        <div class="form-body">
+            <div class="horizontal-group">
+                <div class="form-group left">
+                    <label for="firstname" class="label-title">First name *</label>
+                    <input type="text" id="firstname" class="form-input" placeholder="enter your first name" required="required" />
+                </div>
+                <div class="form-group right">
+                    <label for="lastname" class="label-title">Last name</label>
+                    <input type="text" id="lastname" class="form-input" placeholder="enter your last name" />
+                </div>
+              </div>
+            <!-- Email -->
+            <div class="form-group left">
+    <label for="email" class="label-title">Email*</label>
+    <input type="email" id="email" class="form-input" placeholder="enter your email" required="required">
+  </div>
+    <div class="form-group left">
+        <label for="OFFICERID" class="label-title">OFFICERID*</label>
+        <input type="text" id="OFFICERID" class="form-input" placeholder="Unique ID" required="required" />
+    </div>
+    <div class="form-group left">
+        <label for="Incharge" class="label-title">Incharge*</label>
+        <input type="text" id="OFFICERID" class="form-input" placeholder="Incharge station " required="required" />
+    </div>
+        <div class="form-group left">
+            <label for="STATE" class="label-title">STATE *</label>
+            <input type="text" id="place" class="form-input" placeholder="enter your state" required="required" />
+        </div>
+            <div class="form-group left">
+                <label for="STATE" class="label-title">STATE *</label>
+                <input type="text" id="place" class="form-input" placeholder="enter your state" required="required" />
+              </div>
+                <div class="form-group left">
+                    <label for="DISTRICT" class="label-title">DISTRICT*</label>
+                    <input type="text" id="place" class="form-input" placeholder="enter your district" required="required" />
+                </div>
+                    <div class="form-group left">
+                        <label for="CITY" class="label-title">CITY *</label>
+                        <input type="text" id="place" class="form-input" placeholder="enter your city" required="required" />
+                    </div>
+                        <div class="form-group left">
+                            <label for="Phone Number" class="label-title">PHONE NO.*</label>
+                            <input type="text" id="number" class="form-input" placeholder="enter your contact number" required="required" />
+                        </div>
+
+    <div class="form-group left" >
+        <label for="choose-file" class="label-title">Upload Profile Picture</label>
+        <input type="file" id="choose-file" size="80">
+      </div>
+      
+      <div class="form-group right">
+        <label for="experience" class="label-title">Age</label>
+        <input type="number" min="18" max="80"  value="18" class="form-input">
+      </div>
+        <div class="form-group left">
+            <label>
+                Gender<span class="req">*</span>
+              </label>
+              <select name='Gender'>
+                  <option value="MALE">MALE</option>
+                  <option value="FEMALE">FEMALE</option>
+              </select>
+        </div>
+      <!-- Passwrod and confirm password -->
+  
+    <div class="form-group left">
+        <label for="password" class="label-title">Password *</label>
+        <input type="password" id="password" class="form-input" placeholder="enter your password" required="required">
+      </div>
+    
+      <div class="form-group right">
+        <label for="confirm-password" class="label-title">Confirm Password *</label>
+        <input type="password" class="form-input" id="confirm-password" placeholder="enter your password again" required="required">
+      </div>
+    </div>
+        <!-- form footer -->
+        <div class="form-footer">
+  <button type="submit" class="btn">Create</button>
+        </div>
+    </form>
+
+  </body>
+</html>
